@@ -10,17 +10,17 @@
         content="WDD 131 – Dynamic Web Fundamentals Gabriel James Home page with personal information, web development resources, and dynamic content.">
     <meta name="author" content="Gabriel James">
 
-    <!-- Google Fonts (correct <link> method, no @import) -->
+    <!-- ✅ Google Fonts (correct <link> method, no @import) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap"
         rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- ✅ CSS link -->
     <link rel="stylesheet" href="styles/base.css">
 
-    <!-- JavaScript -->
+    <!-- ✅ JavaScript (deferred to load after HTML) -->
     <script src="scripts/getdates.js" defer></script>
 </head>
 
@@ -28,10 +28,11 @@
     <header>
         <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
         <nav>
-            <a href="https://www.linkedin.com/in/gabriel-james-123456789/">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
-            <a href="#">Final Project</a>
+            <a href="https://www.linkedin.com/in/gabriel-james-123456789/" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7"
+                target="_blank">Scripture</a>
+            <a href="#" target="_blank">Final Project</a>
         </nav>
     </header>
 
@@ -71,7 +72,7 @@
             </div>
         </section>
 
-        <section class="card">
+        <section class="card resources">
             <h2>Web Dev Resources</h2>
             <ul>
                 <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
@@ -79,14 +80,13 @@
                 <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
                 <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
                 <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
-                <!-- Replaced placeholder.com with a free, real image resource -->
                 <li><a href="https://unsplash.com" target="_blank">Unsplash</a></li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="currentyear"></span> <span>Gabriel James.</span> Nigeria</p>
+        <p>&copy; <span id="currentyear"></span> Gabriel James, Nigeria</p>
         <p id="lastModified"></p>
     </footer>
 </body>
