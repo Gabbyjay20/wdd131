@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Dynamic Web Fundamentals – Gabriel James</title>
+
     <meta name="description"
         content="WDD 131 – Dynamic Web Fundamentals Gabriel James Home page with personal information, web development resources, and dynamic content.">
     <meta name="author" content="Gabriel James">
+
+    <!-- Google Fonts (correct <link> method, no @import) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/base.css">
+
+    <!-- JavaScript -->
     <script src="scripts/getdates.js" defer></script>
 </head>
 
@@ -28,19 +37,18 @@
 
     <main>
         <h1>Gabriel James</h1>
+
         <section class="card">
             <h2>About Me</h2>
             <div class="about-container">
                 <div class="text">
                     <p>My name is Gabriel James. I am from Nigeria and I’m passionate about creativity, technology, and
-                        teaching.
-                        I enjoy building web projects and helping others learn digital skills.
+                        teaching. I enjoy building web projects and helping others learn digital skills.
                         I’m currently studying Dynamic Web Fundamentals, where I’m learning to create responsive,
                         interactive, and meaningful web experiences.</p>
 
                     <p>Beyond coding, I enjoy music, learning new ideas, and spending quality time with people I care
-                        about.
-                        My goal is to keep growing as a digital creator and contribute to projects that make a
+                        about. My goal is to keep growing as a digital creator and contribute to projects that make a
                         difference.</p>
 
                     <h3>Nigeria</h3>
@@ -71,13 +79,14 @@
                 <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
                 <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
                 <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
-                <li><a href="https://placeholder.com" target="_blank">Image Placeholder</a></li>
+                <!-- Replaced placeholder.com with a free, real image resource -->
+                <li><a href="https://unsplash.com" target="_blank">Unsplash</a></li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy;<span id="currentyear"></span> Gabriel James. Nigeria</p>
+        <p>&copy; <span id="currentyear"></span> <span>Gabriel James.</span> Nigeria</p>
         <p id="lastModified"></p>
     </footer>
 </body>
