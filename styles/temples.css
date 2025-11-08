@@ -40,7 +40,7 @@ h1 {
 
 /* Navigation (hidden by default on mobile) */
 nav {
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: var(--primary-color);
 }
@@ -92,6 +92,10 @@ figure img {
 figcaption {
     padding: 0.5rem;
     font-weight: 600;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Footer */

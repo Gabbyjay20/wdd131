@@ -4,25 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temple Album</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Temple Album – Gabriel James</title>
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals Gabriel James Home page with personal information, web development resources, and dynamic content.">
+    <meta name="author" content="Gabriel James">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
 
     <!-- JavaScript -->
+    <script src="scripts/getdates.js" defer></script>
     <script src="scripts/temples.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Temple Album</h1>
+        Temple Album
         <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
         <nav id="nav-menu">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Old</a>
             <a href="#">New</a>
             <a href="#">Large</a>
@@ -31,52 +36,52 @@
     </header>
 
     <main>
-        <h2>Home</h2>
+        <h2>All Temples</h2>
 
         <section class="temple-grid">
-            <figure>
+            <figure data-oldnew="new" data-size="small">
                 <img src="images/aba_nigeria_temple_lds.jpeg" alt="Aba Temple">
                 <figcaption>Aba Temple</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="new" data-size="small">
                 <img src="images/abidjan_ivory_coast_temple_exterior.jpeg" alt="Abidjan Ivory Coast Temple">
                 <figcaption>Abidjan Ivory Coast</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="new" data-size="small">
                 <img src="images/accra_ghana_temple_lds.jpeg" alt="Accra Ghana Temple">
                 <figcaption>Accra Ghana Temple</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="old" data-size="large">
                 <img src="images/atlanta_temple_lds.jpeg" alt="Atlanta Temple">
                 <figcaption>Atlanta Temple</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="new" data-size="small">
                 <img src="images/tarawa_kiribati_temple_exterior_rendering.jpeg" alt="Tarawa Kiribati Temple">
                 <figcaption>Tarawa Kiribati Temple</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="old" data-size="large">
                 <img src="images/taylorsville_utah_temple_exteriors.jpeg" alt="Taylors Ville Utah Temple">
-                <figcaption>Taylors Ville Utah Temple/figcaption>
+                <figcaption>Taylors Ville Utah Temple</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="new" data-size="small">
                 <img src="images/temple_rendering_teresina_brazil_temple.jpeg" alt="Teresina Brazil Temple">
                 <figcaption>Teresina Brazil</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="old" data-size="large">
                 <img src="images/tokyo_japan_temple.jpeg" alt="Tokyo Japan Temple">
                 <figcaption>Tokyo Japan</figcaption>
             </figure>
 
-            <figure>
+            <figure data-oldnew="old" data-size="small">
                 <img src="images/vernal_temple_lds.jpeg" alt="Vernal Temple">
-                <figcaption>Vernal Tempo</figcaption>
+                <figcaption>Vernal Temple</figcaption>
             </figure>
         </section>
     </main>
