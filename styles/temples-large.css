@@ -3,6 +3,10 @@
         display: none;
     }
 
+    nav {
+        display: flex;
+    }
+
     .navigation {
         display: flex;
         gap: 1rem;

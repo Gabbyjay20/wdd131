@@ -28,6 +28,11 @@ header h1 {
     cursor: pointer;
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .navigation {
     display: none;
     flex-direction: column;
