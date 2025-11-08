@@ -1,5 +1,5 @@
 // Dynamic footer date
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("currentyear").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
 // Hamburger menu toggle
