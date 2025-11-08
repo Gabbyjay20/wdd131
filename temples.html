@@ -2,32 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 – Dynamic Web Fundamentals – Temple Album – Gabriel James</title>
-    <meta name="description"
-        content="WDD 131 – Dynamic Web Fundamentals Gabriel James Home page with personal information, web development resources, and dynamic content.">
-    <meta name="author" content="Gabriel James">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="styles/base.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Album</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-
-    <!-- JavaScript -->
-    <script src="scripts/getdates.js" defer></script>
     <script src="scripts/temples.js" defer></script>
 </head>
 
 <body>
     <header>
-        Temple Album
-        <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
-        <nav id="nav-menu">
-            <a href="index.html">Home</a>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="Menu">&#9776;</button>
+        <nav class="navigation">
+            <a href="#">Home</a>
             <a href="#">Old</a>
             <a href="#">New</a>
             <a href="#">Large</a>
@@ -36,59 +24,50 @@
     </header>
 
     <main>
-        <h2>All Temples</h2>
-
-        <section class="temple-grid">
-            <figure data-oldnew="new" data-size="small">
-                <img src="images/aba_nigeria_temple_lds.jpeg" alt="Aba Temple">
-                <figcaption>Aba Temple</figcaption>
+        <h2>Home</h2>
+        <section class="temple-gallery">
+            <figure>
+                <img src="images/aba_nigeria_temple_lds.jpeg" alt="Aba Nigeria Temple">
+                <figcaption>Aba Nigeria</figcaption>
             </figure>
-
-            <figure data-oldnew="new" data-size="small">
+            <figure>
                 <img src="images/abidjan_ivory_coast_temple_exterior.jpeg" alt="Abidjan Ivory Coast Temple">
                 <figcaption>Abidjan Ivory Coast</figcaption>
             </figure>
-
-            <figure data-oldnew="new" data-size="small">
+            <figure>
                 <img src="images/accra_ghana_temple_lds.jpeg" alt="Accra Ghana Temple">
-                <figcaption>Accra Ghana Temple</figcaption>
+                <figcaption>Accra Ghana</figcaption>
             </figure>
-
-            <figure data-oldnew="old" data-size="large">
+            <figure>
                 <img src="images/atlanta_temple_lds.jpeg" alt="Atlanta Temple">
-                <figcaption>Atlanta Temple</figcaption>
+                <figcaption>Atlanta</figcaption>
             </figure>
-
-            <figure data-oldnew="new" data-size="small">
+            <figure>
                 <img src="images/tarawa_kiribati_temple_exterior_rendering.jpeg" alt="Tarawa Kiribati Temple">
-                <figcaption>Tarawa Kiribati Temple</figcaption>
+                <figcaption>Tarawa Kiribati</figcaption>
             </figure>
-
-            <figure data-oldnew="old" data-size="large">
-                <img src="images/taylorsville_utah_temple_exteriors.jpeg" alt="Taylors Ville Utah Temple">
-                <figcaption>Taylors Ville Utah Temple</figcaption>
+            <figure>
+                <img src="images/taylorsville_utah_temple_exteriors.jpeg" alt="Taylorsville Utah Temple">
+                <figcaption>Taylorsville Utah</figcaption>
             </figure>
-
-            <figure data-oldnew="new" data-size="small">
+            <figure>
                 <img src="images/temple_rendering_teresina_brazil_temple.jpeg" alt="Teresina Brazil Temple">
                 <figcaption>Teresina Brazil</figcaption>
             </figure>
-
-            <figure data-oldnew="old" data-size="large">
+            <figure>
                 <img src="images/tokyo_japan_temple.jpeg" alt="Tokyo Japan Temple">
                 <figcaption>Tokyo Japan</figcaption>
             </figure>
-
-            <figure data-oldnew="old" data-size="small">
+            <figure>
                 <img src="images/vernal_temple_lds.jpeg" alt="Vernal Temple">
-                <figcaption>Vernal Temple</figcaption>
+                <figcaption>Vernal</figcaption>
             </figure>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="currentyear"></span> Gabriel James, Nigeria</p>
-        <p id="lastModified"></p>
+        <p>&copy; <span id="year"></span> | Gabriel James | Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
     </footer>
 </body>
 

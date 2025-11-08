@@ -1,20 +1,19 @@
-/* temples-large.css */
-@media only screen and (min-width: 700px) {
-    #menu-toggle {
+@media screen and (min-width: 700px) {
+    #menu {
         display: none;
     }
 
-    nav {
-        display: flex !important;
-        flex-direction: row;
+    .navigation {
+        display: flex;
         gap: 1rem;
     }
 
-    nav a {
-        padding: 0.5rem 1rem;
+    main {
+        max-width: 900px;
+        margin: 0 auto;
     }
 
-    .temple-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    .temple-gallery {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
