@@ -141,18 +141,16 @@ main {
     margin-bottom: var(--spacing-md);
     font-family: 'Merriweather', serif;
     font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm);
+    position: relative;
 }
 
-.weather-icon {
-    font-size: 1.5rem;
-}
-
-.weather-icon::after {
-    content: "⛅";
-    margin-left: var(--spacing-sm);
+/* Pseudo-element emoticon for desktop view */
+@media (min-width: 769px) {
+    .weather h2::after {
+        content: "⛅";
+        margin-left: var(--spacing-sm);
+        font-size: 1.5rem;
+    }
 }
 
 .weather-info {
