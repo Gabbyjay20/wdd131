@@ -49,25 +49,25 @@ const temples = [
     imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
   },
   {
-    templeName: "Winnipeg Manitoba",
-    location: "Winnipeg, Manitoba, Canada",
-    dedicated: "2021, October, 31",
-    area: 10400,
-    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/winnipeg-manitoba/400x250/winnipeg-manitoba-temple-moroni-1.jpg"
+    templeName: "Durban South Africa",
+    location: "Durban, South Africa",
+    dedicated: "2020, February, 16",
+    area: 19860,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/400x250/1-8b3f1b895a563b22037042582823a0c2826620e7.jpeg"
   },
   {
-    templeName: "Adelaide Australia",
-    location: "Adelaide, South Australia, Australia",
-    dedicated: "2000, June, 15",
-    area: 10700,
-    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/400x250/adelaide-australia-temple-lds-675332-wallpaper.jpg"
+    templeName: "Praia Cape Verde",
+    location: "Praia, Cape Verde",
+    dedicated: "2022, June, 19",
+    area: 19000,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/praia-cape-verde/400x250/Praia-Cape-Verde-Temple-2.jpg"
   },
   {
-    templeName: "Brisbane Australia",
-    location: "Brisbane, Queensland, Australia",
-    dedicated: "2003, June, 15",
-    area: 10700,
-    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brisbane-australia/400x250/brisbane-australia-temple-lds-745088-wallpaper.jpg"
+    templeName: "Rome Italy",
+    location: "Rome, Italy",
+    dedicated: "2019, March, 10",
+    area: 40000,
+    imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/400x250/4-Rome-Temple-2160340.jpg"
   }
 ];
 // Dynamic footer date
