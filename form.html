@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit a product review using this form.">
+    <meta name="author" content="Gabriel James">
+    <title>Product Review Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <legend>Product Review</legend>
+
+                <label for="product">Product Name:</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+
+                <fieldset>
+                    <legend>Overall Rating:</legend>
+                    <div class="rating">
+                        <input type="radio" id="rating1" name="rating" value="1" required>
+                        <label for="rating1">☆</label>
+                        <input type="radio" id="rating2" name="rating" value="2">
+                        <label for="rating2">☆☆</label>
+                        <input type="radio" id="rating3" name="rating" value="3">
+                        <label for="rating3">☆☆☆</label>
+                        <input type="radio" id="rating4" name="rating" value="4">
+                        <label for="rating4">☆☆☆☆</label>
+                        <input type="radio" id="rating5" name="rating" value="5">
+                        <label for="rating5">☆☆☆☆☆</label>
+                    </div>
+                </fieldset>
+
+                <label for="installDate">Date of Installation:</label>
+                <input type="date" id="installDate" name="installDate" required>
+
+                <fieldset>
+                    <legend>Useful Features:</legend>
+                    <div class="features">
+                        <input type="checkbox" id="durability" name="features" value="Durability">
+                        <label for="durability">Durability</label>
+                        <input type="checkbox" id="easeOfUse" name="features" value="Ease of Use">
+                        <label for="easeOfUse">Ease of Use</label>
+                        <input type="checkbox" id="design" name="features" value="Design">
+                        <label for="design">Design</label>
+                        <input type="checkbox" id="performance" name="features" value="Performance">
+                        <label for="performance">Performance</label>
+                        <input type="checkbox" id="support" name="features" value="Support">
+                        <label for="support">Support</label>
+                    </div>
+                </fieldset>
+
+                <label for="review">Written Review:</label>
+                <textarea id="review" name="review" rows="4"></textarea>
+
+                <label for="userName">User Name:</label>
+                <input type="text" id="userName" name="userName">
+
+                <input type="submit" value="Submit Review">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Gabriel James | Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
