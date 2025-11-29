@@ -134,21 +134,84 @@ input[type="submit"]:hover {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     main {
         margin: 1rem;
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    fieldset {
+        padding: 0.75rem;
+    }
+
+    .rating {
+        gap: 0.25rem;
+    }
+
+    .rating label {
+        font-size: 1.25rem;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        align-self: stretch;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin: 0.5rem;
         padding: 0.5rem;
+    }
+
+    header {
+        padding: 0.75rem 0;
+    }
+
+    header h1 {
+        font-size: 1.25rem;
     }
 
     fieldset {
         padding: 0.5rem;
     }
 
-    .rating {
-        flex-direction: column;
+    label {
+        font-size: 0.9rem;
     }
 
-    .features {
-        flex-direction: column;
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+
+    .rating label {
+        font-size: 1rem;
+    }
+
+    .features label {
+        font-size: 0.9rem;
+    }
+
+    input[type="submit"] {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    footer {
+        padding: 0.75rem;
+        font-size: 0.8rem;
     }
 }
