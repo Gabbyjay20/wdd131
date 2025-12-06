@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Confirmation of your product review submission.">
+    <meta name="author" content="Gabriel James">
+    <title>Review Submitted</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/review.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Review Submitted</h1>
+    </header>
+
+    <main>
+        <section id="review-details">
+            <h2>Your Review</h2>
+            <p><strong>Product:</strong> <span id="product"></span></p>
+            <p><strong>Rating:</strong> <span id="rating"></span></p>
+            <p><strong>Date of Installation:</strong> <span id="installDate"></span></p>
+            <p><strong>Useful Features:</strong> <span id="features"></span></p>
+            <p><strong>Written Review:</strong> <span id="review"></span></p>
+            <p><strong>User Name:</strong> <span id="userName"></span></p>
+        </section>
+
+        <section id="counter">
+            <h2>Review Counter</h2>
+            <p>Total reviews submitted: <span id="reviewCount"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Gabriel James | Nigeria</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>

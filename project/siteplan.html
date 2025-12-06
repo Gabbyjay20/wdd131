@@ -1,0 +1,641 @@
+<!doctype doctype>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Planning Document - Site Plan</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #2d3748;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            width: 100%;
+        }
+
+        header {
+            background: #667eea;
+            color: #ffffff;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: #f7fafc;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.3rem;
+            margin: 1.5rem 0 0.75rem 0;
+            font-weight: 600;
+        }
+
+        p {
+            color: #2d3748;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        ul,
+        ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .logo-container {
+            display: inline-block;
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo-text {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .color-palette {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .color-card {
+            flex: 1;
+            min-width: 200px;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .color-swatch {
+            height: 100px;
+            width: 100%;
+        }
+
+        .color-info {
+            padding: 1rem;
+        }
+
+        .color-name {
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 0.25rem;
+        }
+
+        .color-hex {
+            font-family: 'Courier New', monospace;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        .color-usage {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #4a5568;
+        }
+
+        .font-example {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .font-sample {
+            margin-bottom: 0.75rem;
+        }
+
+        .font-name {
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 0.25rem;
+        }
+
+        .wireframe-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .wireframe {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .wireframe h4 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .wireframe-drawing {
+            border: 2px solid #e2e8f0;
+            border-radius: 4px;
+            padding: 1rem;
+            background: #fafafa;
+        }
+
+        .wireframe-header {
+            background: #667eea;
+            color: #ffffff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .wireframe-nav {
+            background: #764ba2;
+            color: #ffffff;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .wireframe-content {
+            background: #f7fafc;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: #718096;
+        }
+
+        .wireframe-sidebar {
+            background: #edf2f7;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.85rem;
+            color: #718096;
+        }
+
+        .wireframe-footer {
+            background: #2d3748;
+            color: #ffffff;
+            padding: 0.75rem;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        .mobile-wireframe .wireframe-drawing {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+
+        .desktop-wireframe .wireframe-layout {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1rem;
+        }
+
+        .scenario-card {
+            background: #ffffff;
+            padding: 1.25rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 3px solid #764ba2;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .scenario-question {
+            font-weight: 600;
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+            font-size: 1.05rem;
+        }
+
+        footer {
+            background: #2d3748;
+            color: #ffffff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            color: #e2e8f0;
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+
+            section {
+                padding: 1.25rem;
+            }
+
+            .wireframe-container {
+                grid-template-columns: 1fr;
+            }
+
+            .color-palette {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <style>
+        @view-transition {
+            navigation: auto;
+        }
+    </style>
+    <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+    <script src="/_sdk/element_sdk.js" type="text/javascript"></script>
+    <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>W05 Project: Website Planning Document</h1>
+            <p>A comprehensive blueprint for designing and developing your web project</p>
+        </header>
+        <main>
+            <section id="site-name">
+                <h2>Site Name</h2>
+                <div class="logo-container">
+                    <div class="logo-text">
+                        📚 LearnHub Academy
+                    </div>
+                </div>
+                <h3>Site Name: LearnHub Academy</h3>
+                <p><strong>Why this name?</strong> The name "LearnHub Academy" was chosen because it clearly
+                    communicates the site's purpose as a central hub for learning and education. The word "Hub" suggests
+                    a gathering place where multiple resources and opportunities converge, while "Academy" conveys
+                    professionalism, quality education, and a structured learning environment. Together, they create a
+                    memorable brand that appeals to students, educators, and lifelong learners seeking a trusted
+                    platform for online education.</p>
+                <p><strong>Optional Domain:</strong> learnhub-academy.com or learnhubacademy.org</p>
+            </section>
+            <section id="site-purpose">
+                <h2>Site Purpose</h2>
+                <p>LearnHub Academy serves as a comprehensive online learning platform that connects students with
+                    high-quality educational resources and courses. The site provides:</p>
+                <ul>
+                    <li><strong>Course Catalog:</strong> A searchable database of online courses across various subjects
+                        including technology, business, arts, and sciences</li>
+                    <li><strong>Student Resources:</strong> Study guides, downloadable materials, and interactive
+                        learning tools</li>
+                    <li><strong>Enrollment System:</strong> Easy-to-use registration and enrollment forms for
+                        prospective students</li>
+                    <li><strong>Instructor Profiles:</strong> Information about qualified educators and their areas of
+                        expertise</li>
+                    <li><strong>Community Features:</strong> Discussion forums and networking opportunities for learners
+                    </li>
+                    <li><strong>Progress Tracking:</strong> Tools for students to monitor their learning journey and
+                        achievements</li>
+                </ul>
+                <p>The primary goal is to make quality education accessible and engaging for adult learners seeking
+                    professional development, career advancement, or personal enrichment.</p>
+            </section>
+            <section id="scenarios">
+                <h2>Scenarios</h2>
+                <p>These scenarios represent questions from our target audience that will help drive the content and
+                    structure of the website:</p>
+                <div class="scenario-card">
+                    <div class="scenario-question">
+                        Scenario 1: What courses are available for someone looking to transition into web development?
+                    </div>
+                    <p>A working professional in their 30s wants to change careers and is interested in learning web
+                        development. They need to understand what courses are offered, the prerequisites, course
+                        duration, and whether the curriculum is suitable for beginners with no coding background.</p>
+                </div>
+                <div class="scenario-card">
+                    <div class="scenario-question">
+                        Scenario 2: How do I enroll in a course and what is the cost structure?
+                    </div>
+                    <p>A prospective student wants to understand the enrollment process, payment options, course fees,
+                        and whether there are any discounts or financial aid available. They need clear, step-by-step
+                        guidance on how to register and start learning.</p>
+                </div>
+                <div class="scenario-card">
+                    <div class="scenario-question">
+                        Scenario 3: Can I access course materials on mobile devices while commuting?
+                    </div>
+                    <p>A busy professional with a 45-minute daily commute wants to know if they can study effectively on
+                        their smartphone or tablet. They need information about mobile compatibility, offline access,
+                        and the user experience on smaller screens.</p>
+                </div>
+            </section>
+            <section id="color-schema">
+                <h2>Color Schema</h2>
+                <p>The color palette for LearnHub Academy has been carefully selected to create a professional,
+                    trustworthy, and engaging learning environment. Each color serves a specific purpose in the user
+                    interface:</p>
+                <div class="color-palette">
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #1a73e8;"></div>
+                        <div class="color-info">
+                            <div class="color-name">
+                                Primary Blue
+                            </div>
+                            <div class="color-hex">
+                                #1a73e8
+                            </div>
+                            <div class="color-usage"><strong>Usage:</strong> Main headings, primary buttons, navigation
+                                bar, call-to-action elements, brand logo
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #4CAF50;"></div>
+                        <div class="color-info">
+                            <div class="color-name">
+                                Green
+                            </div>
+                            <div class="color-hex">
+                                #4CAF50
+                            </div>
+                            <div class="color-usage"><strong>Usage:</strong> Call-to-action buttons, highlights, success
+                                messages
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #FF9800;"></div>
+                        <div class="color-info">
+                            <div class="color-name">
+                                Orange
+                            </div>
+                            <div class="color-hex">
+                                #FF9800
+                            </div>
+                            <div class="color-usage"><strong>Usage:</strong> Accents, highlights, energy elements
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #F5F5F5;"></div>
+                        <div class="color-info">
+                            <div class="color-name">
+                                Light Gray
+                            </div>
+                            <div class="color-hex">
+                                #F5F5F5
+                            </div>
+                            <div class="color-usage"><strong>Usage:</strong> Page backgrounds, section backgrounds
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color-card">
+                        <div class="color-swatch" style="background: #333333;"></div>
+                        <div class="color-info">
+                            <div class="color-name">
+                                Dark Gray
+                            </div>
+                            <div class="color-hex">
+                                #333333
+                            </div>
+                            <div class="color-usage"><strong>Usage:</strong> Body text, footer background
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="typography">
+                <h2>Typography</h2>
+                <p>The typography system uses web-safe fonts with careful consideration for readability and visual
+                    hierarchy:</p>
+                <div class="font-example">
+                    <div class="font-sample">
+                        <div class="font-name">
+                            Primary Font: Segoe UI (Headings)
+                        </div>
+                        <h1
+                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 2rem; margin: 0.5rem 0;">
+                            This is a Main Heading (H1)</h1>
+                        <h2
+                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1.5rem; margin: 0.5rem 0;">
+                            This is a Subheading (H2)</h2>
+                        <p><strong>Usage:</strong> All headings (H1-H6), navigation menu items, and prominent labels.
+                            This font provides excellent readability and a modern, professional appearance.</p>
+                    </div>
+                </div>
+                <div class="font-example">
+                    <div class="font-sample">
+                        <div class="font-name">
+                            Body Font: Segoe UI (Body Text)
+                        </div>
+                        <p
+                            style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 1rem; line-height: 1.6; margin: 0.5rem 0;">
+                            This is body text using the primary font stack. It maintains excellent readability across
+                            different screen sizes and provides a comfortable reading experience for longer content
+                            sections. The font is optimized for both print and screen display.</p>
+                        <p><strong>Usage:</strong> All body text, paragraphs, descriptions, form fields, and general
+                            content. Line height set to 1.6 for optimal readability.</p>
+                    </div>
+                </div>
+                <div class="font-example">
+                    <div class="font-sample">
+                        <div class="font-name">
+                            Monospace Font: Courier New (Code/Technical)
+                        </div>
+                        <p
+                            style="font-family: 'Courier New', monospace; font-size: 0.95rem; background: #f7fafc; padding: 0.75rem; border-radius: 4px; margin: 0.5rem 0;">
+                            function exampleCode() { return "This is monospace font"; }</p>
+                        <p><strong>Usage:</strong> Code snippets, technical documentation, hex color codes, file paths,
+                            and any content requiring monospace formatting.</p>
+                    </div>
+                </div>
+                <h3>Font Hierarchy</h3>
+                <ul>
+                    <li><strong>H1:</strong> 2.5rem - 3rem (Page titles)</li>
+                    <li><strong>H2:</strong> 1.8rem - 2rem (Section headers)</li>
+                    <li><strong>H3:</strong> 1.3rem - 1.5rem (Subsection headers)</li>
+                    <li><strong>Body:</strong> 1rem (16px base) (Main content)</li>
+                    <li><strong>Small:</strong> 0.875rem - 0.9rem (Captions, footnotes)</li>
+                </ul>
+            </section>
+            <section id="wireframe">
+                <h2>Wireframe</h2>
+                <p>Below are the wireframe designs for the home page, showing both mobile and desktop layouts:</p>
+                <div class="wireframe-container">
+                    <div class="wireframe mobile-wireframe">
+                        <h4>Mobile View (320px - 768px)</h4>
+                        <div class="wireframe-drawing">
+                            <div class="wireframe-header">
+                                Logo | LearnHub Academy
+                            </div>
+                            <div class="wireframe-nav">
+                                ☰ Menu
+                            </div>
+                            <div class="wireframe-content">
+                                Hero Section<br>
+                                Welcome Message<br>
+                                CTA Button
+                            </div>
+                            <div class="wireframe-content">
+                                Featured Courses<br>
+                                (Stacked Vertically)
+                            </div>
+                            <div class="wireframe-content">
+                                Testimonials<br>
+                                Student Reviews
+                            </div>
+                            <div class="wireframe-content">
+                                Quick Enrollment Form
+                            </div>
+                            <div class="wireframe-footer">
+                                Footer Links | Contact | Social Media
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wireframe desktop-wireframe">
+                        <h4>Desktop View (1024px+)</h4>
+                        <div class="wireframe-drawing">
+                            <div class="wireframe-header">
+                                Logo | Navigation: Home | Courses | About | Enroll | Contact
+                            </div>
+                            <div class="wireframe-content">
+                                Hero Section - Full Width<br>
+                                Large Headline | Subheading | Primary CTA
+                            </div>
+                            <div class="wireframe-layout">
+                                <div>
+                                    <div class="wireframe-content">
+                                        Featured Courses Grid<br>
+                                        (3 Columns)
+                                    </div>
+                                    <div class="wireframe-content">
+                                        Success Stories<br>
+                                        Testimonial Carousel
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="wireframe-sidebar">
+                                        Quick Enrollment<br>
+                                        Form
+                                    </div>
+                                    <div class="wireframe-sidebar">
+                                        Latest News<br>
+                                        & Updates
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wireframe-footer">
+                                Footer: About | Courses | Contact | Privacy Policy | Terms | Social Media Icons
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 style="margin-top: 2rem;">Wireframe Design Principles</h3>
+                <ul>
+                    <li><strong>Mobile-First Approach:</strong> Content stacks vertically for easy scrolling on smaller
+                        screens</li>
+                    <li><strong>Responsive Navigation:</strong> Hamburger menu on mobile expands to full navigation bar
+                        on desktop</li>
+                    <li><strong>Hero Section:</strong> Prominent welcome message with clear call-to-action above the
+                        fold</li>
+                    <li><strong>Content Hierarchy:</strong> Featured courses displayed prominently with testimonials for
+                        social proof</li>
+                    <li><strong>Sidebar Elements:</strong> Enrollment form and news sidebar on desktop, integrated into
+                        main flow on mobile</li>
+                    <li><strong>Footer:</strong> Comprehensive links and information accessible on all devices</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p><strong>LearnHub Academy</strong> - Website Planning Document</p>
+            <p>This plan is a living document and may be updated as the project progresses</p>
+            <p>Last Updated: 2024</p>
+        </footer>
+    </div>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'9a5a8001d5aae62c',t:'MTc2NDMzOTU2My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
+</html>

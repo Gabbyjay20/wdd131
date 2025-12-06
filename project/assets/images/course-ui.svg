@@ -1,0 +1,11 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uiTitle uiDesc">
+  <title id="uiTitle">UX research toolkit</title>
+  <desc id="uiDesc">Sticky notes and charts for research insights.</desc>
+  <rect width="360" height="240" rx="28" fill="#fef3c7" />
+  <rect x="48" y="54" width="264" height="132" rx="20" fill="#fff" />
+  <rect x="72" y="80" width="72" height="32" rx="10" fill="#fde68a" />
+  <rect x="160" y="80" width="72" height="32" rx="10" fill="#fcd34d" />
+  <rect x="248" y="80" width="40" height="32" rx="10" fill="#fb923c" />
+  <rect x="72" y="124" width="216" height="12" rx="6" fill="#fb923c" />
+  <rect x="72" y="146" width="140" height="12" rx="6" fill="#fca5a5" />
+</svg>

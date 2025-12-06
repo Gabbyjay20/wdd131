@@ -1,0 +1,23 @@
+<svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="analyticsTitle analyticsDesc">
+  <title id="analyticsTitle">Analytics dashboard</title>
+  <desc id="analyticsDesc">Dashboard widgets and charts showing progress.</desc>
+  <defs>
+    <linearGradient id="analyticsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfccb" />
+      <stop offset="100%" stop-color="#d9f99d" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="24" fill="url(#analyticsBg)" />
+  <rect x="32" y="38" width="256" height="72" rx="18" fill="#fff" />
+  <rect x="52" y="60" width="80" height="10" rx="5" fill="#86efac" />
+  <rect x="52" y="78" width="130" height="10" rx="5" fill="#4ade80" />
+  <rect x="200" y="60" width="60" height="40" rx="12" fill="#1a73e8" opacity="0.9" />
+  <path d="M210 90v-14l12 8 16-18 12 10" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="56" y="128" width="100" height="70" rx="16" fill="#fff" />
+  <rect x="168" y="128" width="100" height="70" rx="16" fill="#fff" />
+  <circle cx="106" cy="162" r="26" fill="#f87171" opacity="0.85" />
+  <path d="M90 162h32" stroke="#fff" stroke-width="6" stroke-linecap="round" />
+  <path d="M106 146v32" stroke="#fff" stroke-width="6" stroke-linecap="round" />
+  <rect x="188" y="148" width="64" height="12" rx="6" fill="#1a73e8" />
+  <rect x="188" y="166" width="52" height="10" rx="5" fill="#38bdf8" />
+</svg>

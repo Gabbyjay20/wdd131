@@ -1,0 +1,13 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="webTitle webDesc">
+  <title id="webTitle">Full-stack web engineering</title>
+  <desc id="webDesc">Browser window with code snippets.</desc>
+  <rect width="360" height="240" rx="28" fill="#e0f2ff" />
+  <rect x="40" y="50" width="280" height="140" rx="18" fill="#fff" />
+  <rect x="60" y="74" width="80" height="10" rx="5" fill="#38bdf8" />
+  <rect x="60" y="94" width="200" height="10" rx="5" fill="#bae6fd" />
+  <rect x="60" y="114" width="120" height="10" rx="5" fill="#93c5fd" />
+  <rect x="200" y="74" width="80" height="60" rx="12" fill="#1a73e8" opacity="0.9" />
+  <path d="M220 94l14 14 18-26" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="120" y="142" width="120" height="4" rx="2" fill="#e2e8f0" />
+  <rect x="120" y="154" width="80" height="4" rx="2" fill="#e2e8f0" />
+</svg>

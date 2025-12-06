@@ -1,0 +1,39 @@
+<svg width="560" height="420" viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Learner reviewing progress across multiple devices</title>
+  <desc id="desc">Abstract illustration showing charts, chat bubbles, and devices representing remote study.</desc>
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe" />
+      <stop offset="100%" stop-color="#bfdbfe" />
+    </linearGradient>
+    <linearGradient id="heroAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="100%" stop-color="#4c51bf" />
+    </linearGradient>
+  </defs>
+  <rect width="560" height="420" rx="32" fill="url(#heroGradient)" />
+  <rect x="40" y="60" width="280" height="200" rx="20" fill="#fff" />
+  <rect x="60" y="90" width="160" height="20" rx="10" fill="#e2e8f0" />
+  <rect x="60" y="130" width="220" height="16" rx="8" fill="#93c5fd" />
+  <rect x="60" y="160" width="220" height="16" rx="8" fill="#bfdbfe" />
+  <rect x="60" y="190" width="120" height="16" rx="8" fill="#c4b5fd" />
+  <rect x="360" y="90" width="140" height="110" rx="18" fill="#1a73e8" opacity="0.9" />
+  <circle cx="430" cy="140" r="34" fill="#fff" opacity="0.9" />
+  <path d="M392 274h108a12 12 0 0 1 12 12v74a12 12 0 0 1-12 12H392a12 12 0 0 1-12-12v-74a12 12 0 0 1 12-12z" fill="#fff" />
+  <rect x="404" y="292" width="84" height="10" rx="5" fill="#93c5fd" />
+  <rect x="404" y="312" width="72" height="10" rx="5" fill="#c4b5fd" />
+  <rect x="424" y="332" width="52" height="10" rx="5" fill="#fbbf24" />
+  <rect x="120" y="280" width="180" height="100" rx="18" fill="#fff" />
+  <rect x="140" y="302" width="60" height="60" rx="12" fill="#f472b6" opacity="0.2" />
+  <rect x="210" y="305" width="70" height="12" rx="6" fill="#60a5fa" />
+  <rect x="210" y="327" width="90" height="10" rx="5" fill="#a5b4fc" />
+  <rect x="210" y="347" width="70" height="10" rx="5" fill="#f472b6" />
+  <circle cx="150" cy="322" r="14" fill="#1a73e8" opacity="0.9" />
+  <path d="M147 322l5 5 9-12" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="290" cy="120" r="34" fill="#1a73e8" opacity="0.45" />
+  <path d="M270 120h40" stroke="#fff" stroke-width="6" stroke-linecap="round" />
+  <path d="M290 100v40" stroke="#fff" stroke-width="6" stroke-linecap="round" />
+  <rect x="80" y="40" width="16" height="80" rx="8" fill="url(#heroAccent)" />
+  <rect x="104" y="40" width="16" height="60" rx="8" fill="#3b82f6" />
+  <rect x="128" y="40" width="16" height="40" rx="8" fill="#60a5fa" />
+</svg>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="LearnHub Academy connects motivated adults with flexible, high-impact online learning paths and resources.">
+    <title>LearnHub Academy | Future-ready online courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">LearnHub Academy</a>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="primaryNav"
+                aria-expanded="false" data-nav-toggle>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </button>
+            <nav id="primaryNav" class="site-nav" data-site-nav>
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="enroll.html">Enroll</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn--ghost" href="enroll.html">Enroll now</a>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <section class="hero section">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Future-ready learning hub</p>
+                    <h1>
+                        Upgrade your career with curated tech, business, and creative programs built for busy adults.
+                    </h1>
+                    <p class="lead">
+                        LearnHub Academy brings expert mentors, skill-building projects, and flexible schedules together
+                        so
+                        you can progress from curiosity to career confidence without pausing your life.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="courses.html">Browse learning paths</a>
+                        <a class="btn btn--ghost" href="#study-plan">Build my study plan</a>
+                    </div>
+                    <dl class="hero-stats">
+                        <div>
+                            <dt>27+</dt>
+                            <dd>Industry mentors online weekly</dd>
+                        </div>
+                        <div>
+                            <dt>4.9/5</dt>
+                            <dd>Learner satisfaction rating</dd>
+                        </div>
+                        <div>
+                            <dt>18K</dt>
+                            <dd>Lessons streamed on mobile each month</dd>
+                        </div>
+                    </dl>
+                </div>
+                <div class="hero-media">
+                    <div class="hero-greeting" id="personalGreeting" aria-live="polite">
+                        Let's design your next learning milestone.
+                    </div>
+                    <img class="hero-image lazy-media" src="assets/images/placeholder.svg"
+                        data-src="assets/images/hero-learning.svg" width="560" height="420"
+                        alt="Learner reviewing progress across multiple devices" loading="lazy">
+                    <div class="hero-card">
+                        <p class="eyebrow">Weekly progress pulse</p>
+                        <p>
+                            Stay on track with automated reminders, milestone reviews, and tailored focus sprints that
+                            adapt to your schedule.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="featured-courses">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Popular this term</p>
+                    <h2>Featured learning paths</h2>
+                    <p>
+                        Every path blends live mentor sessions, project-based checkpoints, and career assets you can use
+                        immediately at work.
+                    </p>
+                </div>
+                <div class="course-grid" data-home-course-grid></div>
+                <div class="section-cta">
+                    <p>Want to see every cohort and flexible schedule?</p>
+                    <a class="btn" href="courses.html">View the full catalog</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container experience-grid">
+                <article class="feature-card">
+                    <img class="lazy-media" src="assets/images/placeholder.svg"
+                        data-src="assets/images/mentor-illustration.svg" width="320" height="220"
+                        alt="Mentor guiding a student online" loading="lazy">
+                    <div>
+                        <p class="eyebrow">Human support</p>
+                        <h3>Mentors who keep an eye on your wins</h3>
+                        <p>
+                            Dedicated mentors host office hours, review assignments, and help you scope a career-ready
+                            portfolio without guesswork.
+                        </p>
+                    </div>
+                </article>
+                <article class="feature-card">
+                    <img class="lazy-media" src="assets/images/placeholder.svg"
+                        data-src="assets/images/collaboration-illustration.svg" width="320" height="220"
+                        alt="Group collaborating virtually" loading="lazy">
+                    <div>
+                        <p class="eyebrow">Collaborative labs</p>
+                        <h3>Ship real solutions with peers worldwide</h3>
+                        <p>
+                            Sprint-based labs simulate real briefs so you can showcase measurable outcomes, not just
+                            certificates.
+                        </p>
+                    </div>
+                </article>
+                <article class="feature-card">
+                    <img class="lazy-media" src="assets/images/placeholder.svg"
+                        data-src="assets/images/analytics-illustration.svg" width="320" height="220"
+                        alt="Analytics dashboard" loading="lazy">
+                    <div>
+                        <p class="eyebrow">Insight dashboard</p>
+                        <h3>Track momentum with meaningful metrics</h3>
+                        <p>
+                            Personalized dashboards highlight streaks, focus time, and skill proficiency so you can make
+                            smarter study decisions.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="study-plan">
+            <div class="container plan-grid">
+                <div>
+                    <p class="eyebrow">Personalized guidance</p>
+                    <h2>Design a study sprint that fits your life</h2>
+                    <p>
+                        Tell us your timeline and focus so we can recommend a realistic practice rhythm. We will
+                        remember
+                        your plan the next time you visit.
+                    </p>
+                    <ul class="icon-list">
+                        <li>
+                            <span aria-hidden="true">🗓️</span>
+                            Adaptive schedules that update with each submission.
+                        </li>
+                        <li>
+                            <span aria-hidden="true">🧭</span>
+                            Role-specific checkpoints built with hiring leads.
+                        </li>
+                        <li>
+                            <span aria-hidden="true">🔒</span>
+                            Your information is stored locally in your browser only.
+                        </li>
+                    </ul>
+                </div>
+                <form class="card" id="studyPlanForm" autocomplete="on">
+                    <fieldset>
+                        <legend>Create your custom study focus</legend>
+                        <label for="planName">Preferred name</label>
+                        <input id="planName" name="name" type="text" placeholder="Ada" required>
+
+                        <label for="planGoal">Primary goal</label>
+                        <select id="planGoal" name="goal" required>
+                            <option value="career switch">Career switch into a new role</option>
+                            <option value="upskill">Upskill for my current role</option>
+                            <option value="freelance">Launch a freelance service</option>
+                            <option value="portfolio">Build a standout portfolio</option>
+                        </select>
+
+                        <label for="planTimeline">Target timeline</label>
+                        <select id="planTimeline" name="timeline" required>
+                            <option value="6 weeks">6 weeks</option>
+                            <option value="3 months">3 months</option>
+                            <option value="6 months">6 months</option>
+                            <option value="flexible">Flexible / exploring</option>
+                        </select>
+
+                        <label for="planHours">Weekly focus hours</label>
+                        <input id="planHours" name="hours" type="number" min="3" max="30" value="8" required>
+
+                        <button class="btn" type="submit">Generate my sprint</button>
+                    </fieldset>
+                </form>
+                <div class="card plan-output" id="studyPlanOutput" aria-live="polite">
+                    <p class="eyebrow">Your plan will appear here</p>
+                    <p>Share a few details to unlock a personalized study sprint.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt" id="testimonials">
+            <div class="container testimonials-grid">
+                <article class="testimonial">
+                    <p class="quote">
+                        “LearnHub helped me transition from administrative work to UX research without quitting my job.
+                        The
+                        mentor feedback loops and project reviews were invaluable.”
+                    </p>
+                    <p class="author">— Tola, Lagos</p>
+                </article>
+                <article class="testimonial">
+                    <p class="quote">
+                        “I use the resource library every commute. The downloadable templates and focus sprints made it
+                        easy to stay on track while juggling clients.”
+                    </p>
+                    <p class="author">— Mei, Singapore</p>
+                </article>
+                <article class="testimonial">
+                    <p class="quote">
+                        “The analytics dashboard kept me honest about how I spent my study hours. I completed two
+                        certifications and a promotion this year.”
+                    </p>
+                    <p class="author">— Victor, Nairobi</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container cta-inner">
+                <div>
+                    <p class="eyebrow">Ready when you are</p>
+                    <h2>Join a supportive cohort that values community and accountability.</h2>
+                    <p>
+                        Cohorts launch twice per month with weekday, evening, and weekend tracks. Enrollment advisors
+                        can
+                        help you pick the right intensity.
+                    </p>
+                </div>
+                <div class="cta-actions">
+                    <a class="btn" href="enroll.html">Start enrollment</a>
+                    <a class="btn btn--ghost" href="resources.html">Preview resources</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo" href="index.html">LearnHub Academy</a>
+                <p>
+                    Premium online programs for ambitious adults in technology, strategy, and digital creativity.
+                </p>
+            </div>
+            <div>
+                <p class="eyebrow">Explore</p>
+                <ul class="footer-links">
+                    <li><a href="courses.html">Learning paths</a></li>
+                    <li><a href="resources.html">Resource hub</a></li>
+                    <li><a href="enroll.html">Enrollment</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="eyebrow">Contact</p>
+                <ul class="footer-links">
+                    <li>Email: advisors@learnhub.academy</li>
+                    <li>Phone: +234 700 555 0131</li>
+                    <li>WhatsApp & Telegram communities</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-base">
+            <p>© <span id="currentYear">2024</span> LearnHub Academy. Built for WDD131.</p>
+            <a href="references.html">References & citations</a>
+        </div>
+    </footer>
+</body>
+
+</html>

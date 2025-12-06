@@ -1,0 +1,11 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="marketingTitle marketingDesc">
+  <title id="marketingTitle">Growth marketing</title>
+  <desc id="marketingDesc">Megaphone and campaign cards</desc>
+  <rect width="360" height="240" rx="28" fill="#fff7ed" />
+  <rect x="52" y="56" width="256" height="128" rx="20" fill="#fff" />
+  <path d="M98 132l44-24v48l-44-24z" fill="#fb923c" />
+  <rect x="82" y="96" width="16" height="72" rx="8" fill="#fed7aa" />
+  <rect x="146" y="100" width="120" height="12" rx="6" fill="#f97316" />
+  <rect x="146" y="122" width="96" height="12" rx="6" fill="#fdba74" />
+  <rect x="146" y="144" width="64" height="12" rx="6" fill="#fcd34d" />
+</svg>

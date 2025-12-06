@@ -1,0 +1,121 @@
+/* ✅ Base Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+nav {
+  background-color: #2b2a2a;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #e0da38;
+}
+
+/* Main Layout */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card Sections */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.text {
+  flex: 2;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 6px;
+}
+
+/* Flag Section */
+.flag-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.flag-section img {
+  width: 80px;
+  border: 1px solid #ccc;
+}
+
+/* Resources */
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resources li {
+  margin-bottom: 8px;
+}
+
+.resources a {
+  text-decoration: none;
+  color: purple;
+}
+
+.resources a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}

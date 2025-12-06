@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Resource hub with study templates, focus checklists, and mobile learning tips for LearnHub Academy students.">
+    <title>Resources | LearnHub Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts/main.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#mainContent">Skip to main content</a>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">LearnHub Academy</a>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="primaryNav"
+                aria-expanded="false" data-nav-toggle>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </button>
+            <nav id="primaryNav" class="site-nav" data-site-nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="resources.html" aria-current="page">Resources</a></li>
+                    <li><a href="enroll.html">Enroll</a></li>
+                </ul>
+            </nav>
+            <a class="btn btn--ghost" href="enroll.html">Enroll now</a>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <section class="page-hero section">
+            <div class="container page-hero__inner">
+                <div>
+                    <p class="eyebrow">Resource library</p>
+                    <h1>Stay consistent with curated study boosters.</h1>
+                    <p>
+                        Download checklists, prompt decks, and practice briefs crafted by LearnHub mentors. Everything
+                        is
+                        mobile-friendly so you can keep learning during commutes.
+                    </p>
+                </div>
+                <div class="page-hero__meta">
+                    <p><strong>New drop:</strong> Product storytelling toolkit + async stand-up template.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container resource-grid">
+                <article class="card resource-card">
+                    <p class="eyebrow">Downloadable</p>
+                    <h2>90-day learning roadmap</h2>
+                    <p>
+                        A guided workbook that helps you set outcomes, identify constraints, and assign weekly rituals.
+                    </p>
+                    <a class="btn" href="assets/toolkits/learning-roadmap.txt" download>
+                        Download workbook (.txt)
+                    </a>
+                </article>
+                <article class="card resource-card">
+                    <p class="eyebrow">Template</p>
+                    <h2>Portfolio retrospective prompts</h2>
+                    <p>
+                        Use these reflection prompts to extract clear metrics and storytelling angles for every project.
+                    </p>
+                    <a class="btn" href="assets/toolkits/portfolio-retro.txt" download>
+                        Download prompts (.txt)
+                    </a>
+                </article>
+                <article class="card resource-card">
+                    <p class="eyebrow">Checklist</p>
+                    <h2>Mobile study toolkit</h2>
+                    <p>
+                        Recommended apps, offline packs, and focus playlists ideal for commute learning.
+                    </p>
+                    <a class="btn btn--ghost" href="courses.html">Link to relevant courses</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section alt" id="tip-spotlight">
+            <div class="container tip-grid">
+                <div>
+                    <p class="eyebrow">Micro coaching</p>
+                    <h2>Rotate through mentor tips whenever you need momentum.</h2>
+                    <p>
+                        Tap the button to reveal coaching nudges sourced from our global mentor team. Share the tip with
+                        a
+                        friend to stay accountable.
+                    </p>
+                </div>
+                <article class="card tip-card" data-tip-card>
+                    <p class="eyebrow" data-tip-category>Focus tip</p>
+                    <h3 data-tip-title>Start with an intentional breath.</h3>
+                    <p data-tip-message>
+                        Before every session, write one sentence that describes the skill you are improving. Close your
+                        laptop once you have evidence you practiced that skill.
+                    </p>
+                    <div class="tip-meta">
+                        <p data-tip-author>Coach Alba · Product Strategy</p>
+                    </div>
+                    <button class="btn" type="button" data-tip-next>Show another tip</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="checklist">
+            <div class="container">
+                <div class="section-header">
+                    <p class="eyebrow">Weekly rhythm</p>
+                    <h2>Track your focus rituals.</h2>
+                    <p>
+                        Select the rituals you completed this week. We will keep your progress stored locally so you can
+                        build streaks.
+                    </p>
+                </div>
+                <div class="card checklist-card">
+                    <ul class="checklist" data-checklist>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="planning">
+                                Planned my study blocks on Sunday evening.
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="practice">
+                                Submitted at least one project artifact for feedback.
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="community">
+                                Posted a learning reflection in the community channel.
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" value="wellness">
+                                Took a mindful break after every 60 minutes of study.
+                            </label>
+                        </li>
+                    </ul>
+                    <p class="checklist-progress" data-checklist-progress aria-live="polite">0 / 4 rituals complete</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo" href="index.html">LearnHub Academy</a>
+                <p>Premium online programs for ambitious adults in technology, strategy, and digital creativity.</p>
+            </div>
+            <div>
+                <p class="eyebrow">Explore</p>
+                <ul class="footer-links">
+                    <li><a href="courses.html">Learning paths</a></li>
+                    <li><a href="resources.html">Resource hub</a></li>
+                    <li><a href="enroll.html">Enrollment</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="eyebrow">Contact</p>
+                <ul class="footer-links">
+                    <li>Email: advisors@learnhub.academy</li>
+                    <li>Phone: +234 700 555 0131</li>
+                    <li>WhatsApp & Telegram communities</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-base">
+            <p>© <span id="currentYear">2024</span> LearnHub Academy. Built for WDD131.</p>
+            <a href="references.html">References & citations</a>
+        </div>
+    </footer>
+</body>
+
+</html>

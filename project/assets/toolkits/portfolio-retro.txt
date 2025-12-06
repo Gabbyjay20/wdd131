@@ -1,0 +1,17 @@
+LearnHub Academy · Portfolio Retrospective Prompts
+=================================================
+
+Prompt 1: Story Hook
+- In one sentence, why did this project matter to the user or business?
+
+Prompt 2: Constraint Snapshot
+- What made the project challenging (timeline, data access, stakeholders)?
+
+Prompt 3: Skill Evidence
+- List two decisions you made and how you validated them.
+
+Prompt 4: Impact Metric
+- Which metric moved? Share its before/after or expected impact.
+
+Prompt 5: Next Iteration
+- If you had one more sprint, what would you test?

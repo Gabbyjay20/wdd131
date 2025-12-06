@@ -1,0 +1,11 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cyberTitle cyberDesc">
+  <title id="cyberTitle">Responsible AI literacy</title>
+  <desc id="cyberDesc">Shield and circuitry</desc>
+  <rect width="360" height="240" rx="28" fill="#e0f2f1" />
+  <rect x="60" y="54" width="240" height="132" rx="20" fill="#fff" />
+  <path d="M180 84l58 20-58 80-58-80 58-20z" fill="#14b8a6" opacity="0.85" />
+  <path d="M180 100l34 12-34 48-34-48 34-12z" fill="#0f766e" />
+  <circle cx="180" cy="134" r="18" fill="#ecfeff" />
+  <path d="M180 120v28" stroke="#0f766e" stroke-width="4" stroke-linecap="round" />
+  <path d="M166 134h28" stroke="#0f766e" stroke-width="4" stroke-linecap="round" />
+</svg>

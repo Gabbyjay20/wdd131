@@ -1,0 +1,24 @@
+<svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mentorTitle mentorDesc">
+  <title id="mentorTitle">Mentor guiding a student online</title>
+  <desc id="mentorDesc">Two chat bubbles and avatars showing feedback cycles.</desc>
+  <defs>
+    <linearGradient id="mentorBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="220" rx="24" fill="url(#mentorBg)" />
+  <rect x="28" y="36" width="184" height="120" rx="16" fill="#fff" />
+  <rect x="48" y="60" width="120" height="14" rx="7" fill="#c7d2fe" />
+  <rect x="48" y="84" width="140" height="12" rx="6" fill="#a5b4fc" />
+  <rect x="48" y="106" width="80" height="12" rx="6" fill="#818cf8" />
+  <circle cx="230" cy="72" r="35" fill="#1a73e8" opacity="0.9" />
+  <path d="M212 72l14 14 22-26" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="180" y="134" width="112" height="60" rx="18" fill="#fff" />
+  <circle cx="208" cy="164" r="16" fill="#f472b6" opacity="0.7" />
+  <rect x="232" y="150" width="48" height="10" rx="5" fill="#60a5fa" />
+  <rect x="232" y="166" width="64" height="10" rx="5" fill="#c4b5fd" />
+  <circle cx="80" cy="168" r="28" fill="#1a73e8" opacity="0.35" />
+  <circle cx="80" cy="168" r="18" fill="#fff" />
+  <path d="M74 170l6 6 12-16" stroke="#1a73e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

@@ -1,0 +1,25 @@
+LearnHub Academy · 90-Day Learning Roadmap
+=========================================
+
+1. Vision snapshot
+   - Describe the role or project you are targeting in one bold sentence.
+   - List three capabilities that define success in that role.
+
+2. Weekly rituals
+   - Focus Sprint (2x per week)
+   - Feedback Loop (1x per week)
+   - Reflection Log (every weekend)
+
+3. Progress signals
+   - Skill evidence: links to code, decks, or prototypes.
+   - Confidence rating: score each week from 1-5.
+   - Community check-in: tag an accountability partner.
+
+4. Obstacles + safeguard plan
+   - Time blockers → Assign a boundary or automation.
+   - Knowledge gaps → Flag them for mentor office hours.
+   - Energy dips → Pair concepts with movement or music cues.
+
+5. Celebrate
+   - Every 30 days share a "Before vs After" snapshot.
+   - Write one paragraph of gratitude to future you.

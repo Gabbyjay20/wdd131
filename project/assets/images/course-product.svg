@@ -1,0 +1,10 @@
+<svg width="360" height="240" viewBox="0 0 360 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="productTitle productDesc">
+  <title id="productTitle">Product strategy</title>
+  <desc id="productDesc">Roadmap cards and direction arrows.</desc>
+  <rect width="360" height="240" rx="28" fill="#ede9fe" />
+  <rect x="52" y="60" width="256" height="120" rx="20" fill="#fff" />
+  <rect x="76" y="86" width="88" height="36" rx="12" fill="#c4b5fd" />
+  <rect x="180" y="86" width="88" height="36" rx="12" fill="#a78bfa" />
+  <rect x="76" y="136" width="192" height="12" rx="6" fill="#7c3aed" />
+  <path d="M280 140l-12-10v6h-32v8h32v6z" fill="#7c3aed" />
+</svg>
